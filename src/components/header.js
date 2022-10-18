@@ -2,11 +2,14 @@
 export default function Header() {
     return(
         <>
-            <ul>
-                <li>Inicio</li>
-                <li>Sobre</li>
-                <li>Contato</li>
-            </ul>  
+            <header>
+                <h1>Logo</h1>
+                <ul className="menu">
+                    <li>Inicio</li>
+                    <li>Sobre</li>
+                    <li>Contato</li>
+                </ul>
+            </header>  
         </>
     )
 }
