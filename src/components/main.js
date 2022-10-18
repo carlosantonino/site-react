@@ -6,27 +6,27 @@ export default function Main() {
             <section>                
                 <div>
                 <img src="/img/cachorrinho.jpg" />
-                <p>Cachorrinho</p>
+                <h2>Cachorrinho</h2>
                 </div>             
                 <div>
                 <img src="/img/elefante.jpg" />
-                <p>Elefante</p>                
+                <h2>Elefante</h2>                
                 </div>
                 <div>
                 <img src="/img/golfinho.jpg" />
-                <p>Golfinho</p>                
+                <h2>Golfinho</h2>                
                 </div>
                 <div>
                 <img src="/img/manada.jpg" />
-                <p>Animais selvagens</p>
+                <h2>Animais selvagens</h2>
                 </div>
                 <div>
                 <img src="/img/onca.jpg" />
-                <p>Onça</p>
+                <h2>Onça</h2>
                 </div>                
                 <div>
                 <img src="/img/papagaio.jpg" />
-                <p>Papagaio</p>
+                <h2>Papagaio</h2>
                 </div>
                                 
             </section>
