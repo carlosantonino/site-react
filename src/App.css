@@ -6,8 +6,8 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 15px;
-  padding-right: 80px;
+  padding: 2px 20px;
+  /* padding-right: 60px; */
   align-items: center;
 }
 
@@ -17,22 +17,25 @@ header img {
 
 .menu {
   display: flex;
+  padding-right: 50px;
+  font-size: 24px;
+  font-weight: 700;
   list-style: none;
 }
 
 .menu li {
-  margin-left: 10px;
+  margin-left: 25px;
 }
 
 footer {
   width: auto;
   height: 100px;
-  background-color: black;
+  background-color: white;
 }
 
 footer p {
   text-align: center;
-  color: white;
+  color: black;
 }
 
 section {
@@ -50,6 +53,7 @@ section {
 
 .titulo {
   text-align: center;
+  color: white;
 }
 
 section img {
@@ -63,5 +67,7 @@ section h2 {
 }
 
 .main {
-  background-color: aquamarine;
+  background-color: black;
+  color: white;
 }
+
