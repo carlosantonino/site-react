@@ -5,12 +5,14 @@ body {
 
 header {
   display: flex;
-  background: black;
-  color: white;
   justify-content: space-between;
-  padding: 10px;
+  padding: 15px;
   padding-right: 80px;
   align-items: center;
+}
+
+header img {
+  width: 190px;
 }
 
 .menu {
@@ -22,9 +24,15 @@ header {
   margin-left: 10px;
 }
 
+footer {
+  width: auto;
+  height: 100px;
+  background-color: black;
+}
+
 footer p {
-  padding: 10px;
   text-align: center;
+  color: white;
 }
 
 section {
@@ -38,19 +46,22 @@ section {
   column-gap: 30px;
 
   padding: 16px;
-  height: 500px;
 }
 
 .titulo {
   text-align: center;
-  padding: 10px;
 }
 
-img {
+section img {
   width: 300px;  
+  height: 200px;
 }
 
 section h2 {
   text-align: center;
   font-weight: 700;
+}
+
+.main {
+  background-color: aquamarine;
 }

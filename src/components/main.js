@@ -2,6 +2,7 @@
 export default function Main() {
     return (
         <>
+            <div className="main">
             <h1 className="titulo">Inicio</h1> 
             <section>                
                 <div>
@@ -30,6 +31,7 @@ export default function Main() {
                 </div>
                                 
             </section>
+            </div>
         </>
     )
 }
