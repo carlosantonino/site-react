@@ -29,6 +29,14 @@ export default function Main() {
                 <img src="/img/papagaio.jpg" />
                 <h2>Papagaio</h2>
                 </div>
+                <div>
+                <img src="/img/coelho.jpeg" />
+                <h2>Coelho</h2>
+                </div>
+                <div>
+                <img src="/img/gato.jpeg" />
+                <h2>Gato</h2>
+                </div>
                                 
             </section>
             </div>
