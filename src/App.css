@@ -27,7 +27,7 @@ header img {
   width: 190px;
 }
 
-.menu {
+#menu {
   display: flex;
   padding-right: 50px;
   font-size: 24px;
@@ -35,11 +35,11 @@ header img {
   list-style: none;
 }
 
-.menu li {
+#menu li {
   margin-left: 25px;
 }
 
-.menu a {
+#menu a {
   display: block;
   padding: .5rem; /* aumenta area de delimentação do menu */
 }
@@ -97,8 +97,19 @@ section h2 {
   #btn-mobile {
     display: block;
   }
-  .menu {
-    display: none;
+  #menu {
+    /* display: none; */
+    /* display: block;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    right: 0px;
+    background: #e7e7e7;
+    height: calc(100vh - 70px); */
+  }
+
+  #nav.active #menu {
+    display: flex;
   }
 }
 
