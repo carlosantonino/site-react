@@ -1,0 +1,33 @@
+section {
+    display: flex;  
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    row-gap: 10px;
+    column-gap: 30px;
+  
+    padding: 16px;
+  }
+  
+  .titulo {
+    text-align: center;
+    padding-top: 25px;
+    color: white;
+  }
+  
+  section img {
+    width: 300px;  
+    height: 200px;
+  }
+  
+  section h2 {
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  .main {
+    background-color: black;
+    color: white;
+  }

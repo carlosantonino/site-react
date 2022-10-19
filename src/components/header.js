@@ -1,3 +1,5 @@
+import '../css/header.css';
+
 export default function Header() {    
     // const btnMobile = document.getElementById('btn-mobile');
     // function toggleMenu(){
