@@ -1,10 +1,23 @@
-body {
+body, ul {
   margin: 0px;
   padding: 0px;
+  background-color: antiquewhite;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+a:hover {
+  background: rgba(0, 0, 0, .05);
 }
 
 header {
+  box-sizing: border-box;
   display: flex;
+  height: 70px;
   justify-content: space-between;
   padding: 2px 20px;
   align-items: center;
@@ -26,10 +39,15 @@ header img {
   margin-left: 25px;
 }
 
+.menu a {
+  display: block;
+  padding: .5rem; /* aumenta area de delimentação do menu */
+}
+
 footer {
   width: auto;
   height: 100px;
-  background-color: white;
+  background-color: antiquewhite;
 }
 
 footer p {
@@ -52,6 +70,7 @@ section {
 
 .titulo {
   text-align: center;
+  padding-top: 25px;
   color: white;
 }
 
@@ -66,7 +85,21 @@ section h2 {
 }
 
 .main {
-  background-color: black;
+  background-color: chocolate;
   color: white;
 }
 
+#btn-mobile {
+  display: none;
+}
+
+@media (max-width: 600px){
+  #btn-mobile {
+    display: block;
+  }
+  .menu {
+    display: none;
+  }
+}
+
+/* https://youtu.be/DnODupiIAiE?t=499 */
