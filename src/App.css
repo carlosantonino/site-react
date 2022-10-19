@@ -1,15 +1,26 @@
-body {
+body, ul {
   margin: 0px;
   padding: 0px;
   background-color: antiquewhite;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+a:hover {
+  background: rgba(0, 0, 0, .05);
+}
+
 header {
+  box-sizing: border-box;
   display: flex;
+  height: 70px;
   justify-content: space-between;
   background-color: antiquewhite;
-  padding: 2px 20px;
-  /* padding-right: 60px; */
+  padding: 1rem;
   align-items: center;
 }
 
@@ -27,6 +38,11 @@ header img {
 
 .menu li {
   margin-left: 25px;
+}
+
+.menu a {
+  display: block;
+  padding: .5rem; /* aumenta area de delimentação do menu */
 }
 
 footer {
@@ -74,3 +90,17 @@ section h2 {
   color: white;
 }
 
+#btn-mobile {
+  display: none;
+}
+
+@media (max-width: 600px){
+  #btn-mobile {
+    display: block;
+  }
+  .menu {
+    display: none;
+  }
+}
+
+/* https://youtu.be/DnODupiIAiE?t=499 */
