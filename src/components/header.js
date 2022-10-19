@@ -7,18 +7,17 @@ export default function Header() {
     // btnMobile.addEventListener('click', toggleMenu);
     return(
         <>
-            <header id="header">
-                <img src="img/logo_mundo_animal.png" alt="teste" />
-                <nav id="nav">   
-                    <button id="btn-mobile">Menu</button>
-                    <ul id="menu">
-                        <li><a href="/">Inicio</a></li>
-                        <li><a href="/">Portfólio</a></li>
-                        <li><a href="/">Sobre</a></li>
-                        <li><a href="/">Contato</a></li>
-                    </ul>
-                </nav>
-            </header>  
+            <header class="header">
+            <a href="" class="logo">Mundo Animal</a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+                <li><a href="#work">Inicio</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#careers">Contato</a></li>
+                <li><a href="#contact">Portfólio</a></li>
+            </ul>
+            </header> 
         </>
     )
 }
